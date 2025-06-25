@@ -60,7 +60,8 @@ This system allows:
 - 🔹 Deposit Window  
 - 🔹 Withdrawal Form  
 - 🔹 Mini Statement View  
-- 🔹 PIN Change Interface  
+- 🔹 PIN Change Interface
+ ---
 
 
 ## ▶️ How to Run the Project
@@ -68,6 +69,8 @@ This system allows:
 ### 📥 1. Clone or Download the Repository
 
 git clone https://github.com/madhavidurga2000/Bank-Management-System-Java.git
+
+---
 
 ### 🗄️ 2. Set up the MySQL Database
 
@@ -107,6 +110,8 @@ CREATE TABLE signup (
 );
 
 INSERT INTO login VALUES ('1234567890123456', '1234');
+
+---
 ### 📦 3. Add Required Libraries
 
 Download the following JAR files:
@@ -119,6 +124,7 @@ Place them in the following directory:
 Bank-Management-System/lib/
 
 
+---
 
 
 
@@ -129,20 +135,24 @@ Open **Command Prompt** and run:
 
 cd C:\Users\madhavi\Downloads\Bank-Management-System
 javac -cp ".;lib/*" *.java
+
+---
 ###▶️ 5. Run the Application
 
 java -cp ".;lib/*" Login
 
-
+---
 ###🔑 Login Details
 Role	Card Number	PIN
 Sample User	1234567890123456	1234
 New User	Register via Sign Up	
 
+---
 ###👩‍💻 Author
 Madhavi Durga
 📧 Email: madhavidurga2000@gmail.com
 🔗 GitHub: @madhavidurga2000
 
+---
 ###📄 License
 This project is for educational use. Feel free to use or improve it with credit.
