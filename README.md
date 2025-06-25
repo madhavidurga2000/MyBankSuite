@@ -62,15 +62,14 @@ This system allows:
 - 🔹 Mini Statement View  
 - 🔹 PIN Change Interface  
 
----
 
 ## ▶️ How to Run the Project
 
 ### 📥 1. Clone or Download the Repository
 
-```bash
 git clone https://github.com/madhavidurga2000/Bank-Management-System-Java.git
-🗄️ 2. Set up the MySQL Database
+
+###🗄️ 2. Set up the MySQL Database
 Start XAMPP → Start Apache and MySQL
 
 Go to http://localhost/phpmyadmin
@@ -80,8 +79,7 @@ Create a new database named: bank
 Run the following SQL script:
 
 sql
-Copy
-Edit
+
 CREATE DATABASE bank;
 USE bank;
 
@@ -112,41 +110,33 @@ CREATE TABLE signup (
 );
 
 INSERT INTO login VALUES ('1234567890123456', '1234');
-📦 3. Add Required Libraries
+###📦 3. Add Required Libraries
 Download the following JAR files:
 
 MySQL Connector/J
 
 jCalendar.jar
 
-Save them into the following directory:
-
-bash
-Copy
-Edit
 Bank-Management-System/lib/
-🧪 4. Compile the Application
+###🧪 4. Compile the Application
 Open Command Prompt and run:
 
-bash
-Copy
-Edit
+
 cd C:\Users\madhavi\Downloads\Bank-Management-System
 javac -cp ".;lib/*" *.java
-▶️ 5. Run the Application
-bash
-Copy
-Edit
+###▶️ 5. Run the Application
+
 java -cp ".;lib/*" Login
-🔑 Login Details
+
+##🔑 Login Details
 Role	Card Number	PIN
 Sample User	1234567890123456	1234
 New User	Register via Sign Up	
 
-👩‍💻 Author
+##👩‍💻 Author
 Madhavi Durga
 📧 Email: madhavidurga2000@gmail.com
 🔗 GitHub: @madhavidurga2000
 
-📄 License
+##📄 License
 This project is for educational use. Feel free to use or improve it with credit.
