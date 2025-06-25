@@ -118,33 +118,31 @@ Place them in the following directory:
 
 Bank-Management-System/lib/
 
-yaml
-Copy
-Edit
 
----
+
+
 
 ### 🧪 4. Compile the Application
 
 Open **Command Prompt** and run:
 
-```bash
+
 cd C:\Users\madhavi\Downloads\Bank-Management-System
 javac -cp ".;lib/*" *.java
-▶️ 5. Run the Application
-bash
-Copy
-Edit
+###▶️ 5. Run the Application
+
 java -cp ".;lib/*" Login
-🔑 Login Details
+
+
+###🔑 Login Details
 Role	Card Number	PIN
 Sample User	1234567890123456	1234
 New User	Register via Sign Up	
 
-👩‍💻 Author
+###👩‍💻 Author
 Madhavi Durga
 📧 Email: madhavidurga2000@gmail.com
 🔗 GitHub: @madhavidurga2000
 
-📄 License
+###📄 License
 This project is for educational use. Feel free to use or improve it with credit.
