@@ -53,7 +53,7 @@ This system allows:
 
 ## 🖼️ Screenshots
 
-*(Upload your screenshots in a `/screenshots` folder and link here)*
+
 
 - 🔹 Login Screen  
 - 🔹 Sign Up Form  
@@ -68,7 +68,7 @@ This system allows:
 
 ### 📥 1. Clone or Download the Repository
 
-git clone [https://github.com/madhavidurga2000/Bank-Management-System-Java.git](https://github.com/madhavidurga2000/MyBankSuite.git)
+git clone (https://github.com/madhavidurga2000/MyBankSuite.git)
 
 ---
 
