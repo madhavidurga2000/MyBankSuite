@@ -68,7 +68,7 @@ This system allows:
 
 ### 📥 1. Clone or Download the Repository
 
-git clone https://github.com/madhavidurga2000/Bank-Management-System-Java.git
+git clone [https://github.com/madhavidurga2000/Bank-Management-System-Java.git](https://github.com/madhavidurga2000/MyBankSuite.git)
 
 ---
 
