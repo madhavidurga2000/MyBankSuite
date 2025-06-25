@@ -1,4 +1,4 @@
-# 🏦 Bank Management System - Java Desktop Application
+# 🏦 My Bank Suite - Java Desktop Application
 
 A GUI-based desktop application developed using **Java Swing** and **MySQL** that simulates essential banking operations like registration, deposits, withdrawals, and balance inquiries.
 
@@ -53,7 +53,6 @@ This system allows:
 
 ## 🖼️ Screenshots
 
-_(Optional: Add screenshots to a folder named `/screenshots` and link below)_
 
 - 🔹 Login Screen  
 - 🔹 Sign Up Form  
@@ -68,7 +67,6 @@ _(Optional: Add screenshots to a folder named `/screenshots` and link below)_
 
 ### 1. 📥 Clone or Download the Repository
 
-```bash
 git clone https://github.com/madhavidurga2000/Bank-Management-System-Java.git
 ### 2. 🗄️ Set up the MySQL Database
 Start XAMPP → Start Apache and MySQL
@@ -80,8 +78,6 @@ Go to http://localhost/phpmyadmin
 Run this SQL script to create necessary tables:
 
 sql
-Copy
-Edit
 CREATE DATABASE bank;
 USE bank;
 
@@ -133,10 +129,6 @@ java -cp ".;lib/*" Login
 Role	Username / Card No	Password / PIN
 Sample User	1234567890123456	1234
 Or	Register a new account	via Sign Up
-
-##📹 Demo Video
-▶️ Click here to download and watch the demo video
-(Replace with your GitHub-hosted video link if available)
 
 ##👩‍💻 Author
 Madhavi Durga
