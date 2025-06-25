@@ -47,12 +47,13 @@ This system allows:
 - **Mini Statement:** View last transactions  
 
 ### 🔁 PIN Change Module
-- Change current PIN after login
+- Change current PIN after login  
 
 ---
 
 ## 🖼️ Screenshots
 
+*(Upload your screenshots in a `/screenshots` folder and link here)*
 
 - 🔹 Login Screen  
 - 🔹 Sign Up Form  
@@ -65,19 +66,22 @@ This system allows:
 
 ## ▶️ How to Run the Project
 
-### 1. 📥 Clone or Download the Repository
+### 📥 1. Clone or Download the Repository
 
+```bash
 git clone https://github.com/madhavidurga2000/Bank-Management-System-Java.git
-### 2. 🗄️ Set up the MySQL Database
+🗄️ 2. Set up the MySQL Database
 Start XAMPP → Start Apache and MySQL
 
 Go to http://localhost/phpmyadmin
 
-**Create a database named bank**
+Create a new database named: bank
 
-Run this SQL script to create necessary tables:
+Run the following SQL script:
 
 sql
+Copy
+Edit
 CREATE DATABASE bank;
 USE bank;
 
@@ -108,34 +112,41 @@ CREATE TABLE signup (
 );
 
 INSERT INTO login VALUES ('1234567890123456', '1234');
-#
-#3. **📦 Add Required Libraries**
-Download and save the following JAR files:
+📦 3. Add Required Libraries
+Download the following JAR files:
 
 MySQL Connector/J
 
-jcalendar.jar
+jCalendar.jar
 
-Place them in this directory:
+Save them into the following directory:
 
+bash
+Copy
+Edit
 Bank-Management-System/lib/
-#
-#4. 🧪 Compile the Application
+🧪 4. Compile the Application
 Open Command Prompt and run:
 
+bash
+Copy
+Edit
 cd C:\Users\madhavi\Downloads\Bank-Management-System
 javac -cp ".;lib/*" *.java
-#5. ▶️ Run the Application
+▶️ 5. Run the Application
+bash
+Copy
+Edit
 java -cp ".;lib/*" Login
-##**🔑 Login Details**
-Role	Username / Card No	Password / PIN
+🔑 Login Details
+Role	Card Number	PIN
 Sample User	1234567890123456	1234
-Or	Register a new account	via Sign Up
+New User	Register via Sign Up	
 
-##👩‍💻 Author
+👩‍💻 Author
 Madhavi Durga
 📧 Email: madhavidurga2000@gmail.com
 🔗 GitHub: @madhavidurga2000
 
-##📄 License
+📄 License
 This project is for educational use. Feel free to use or improve it with credit.
