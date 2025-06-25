@@ -107,25 +107,34 @@ CREATE TABLE signup (
 );
 
 INSERT INTO login VALUES ('1234567890123456', '1234');
-###📦 3. Add Required Libraries
+### 📦 3. Add Required Libraries
+
 Download the following JAR files:
 
-MySQL Connector/J
-
-jCalendar.jar
+- **MySQL Connector/J**
+- **jCalendar.jar**
 
 Place them in the following directory:
 
-
 Bank-Management-System/lib/
-🧪 4. Compile the Application
-Open Command Prompt and run:
 
+yaml
+Copy
+Edit
 
+---
+
+### 🧪 4. Compile the Application
+
+Open **Command Prompt** and run:
+
+```bash
 cd C:\Users\madhavi\Downloads\Bank-Management-System
 javac -cp ".;lib/*" *.java
 ▶️ 5. Run the Application
-
+bash
+Copy
+Edit
 java -cp ".;lib/*" Login
 🔑 Login Details
 Role	Card Number	PIN
