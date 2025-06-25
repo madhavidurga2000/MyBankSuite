@@ -69,17 +69,14 @@ This system allows:
 
 git clone https://github.com/madhavidurga2000/Bank-Management-System-Java.git
 
-###🗄️ 2. Set up the MySQL Database
-Start XAMPP → Start Apache and MySQL
+### 🗄️ 2. Set up the MySQL Database
 
-Go to http://localhost/phpmyadmin
+1. Start **XAMPP** → Start **Apache** and **MySQL**  
+2. Go to [http://localhost/phpmyadmin](http://localhost/phpmyadmin)  
+3. Create a new database named: `bank`  
+4. Run the following SQL script:
 
-Create a new database named: bank
-
-Run the following SQL script:
-
-sql
-
+```sql
 CREATE DATABASE bank;
 USE bank;
 
@@ -117,26 +114,28 @@ MySQL Connector/J
 
 jCalendar.jar
 
+Place them in the following directory:
+
+
 Bank-Management-System/lib/
-###🧪 4. Compile the Application
+🧪 4. Compile the Application
 Open Command Prompt and run:
 
 
 cd C:\Users\madhavi\Downloads\Bank-Management-System
 javac -cp ".;lib/*" *.java
-###▶️ 5. Run the Application
+▶️ 5. Run the Application
 
 java -cp ".;lib/*" Login
-
-##🔑 Login Details
+🔑 Login Details
 Role	Card Number	PIN
 Sample User	1234567890123456	1234
 New User	Register via Sign Up	
 
-##👩‍💻 Author
+👩‍💻 Author
 Madhavi Durga
 📧 Email: madhavidurga2000@gmail.com
 🔗 GitHub: @madhavidurga2000
 
-##📄 License
+📄 License
 This project is for educational use. Feel free to use or improve it with credit.
